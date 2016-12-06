@@ -23,6 +23,7 @@ function rollDice(){
 			"You have slain<br>the Dragon!";
 			dragonHp = 0;
 			document.getElementById("dragon").className= "hidden";
+			document.getElementById("healthBar").style.width= dragonHp + "%";
 			document.getElementById("healthBar").innerHTML= (dragonHp * 50)
 	}else if(dragonHp<20){
 			document.getElementById("healthBar").innerHTML= (dragonHp * 50)
