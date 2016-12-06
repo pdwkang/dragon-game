@@ -27,6 +27,9 @@ function rollDice(){
 			document.getElementById("dragon").className= "hidden";
 			document.getElementById("healthBar").style.width= dragonHp + "%";
 			document.getElementById("healthBar").innerHTML= (dragonHp * 50)
+	}else if(dragonHp<20){
+			document.getElementById("healthBar").style.width= dragonHp + "%";
+			document.getElementById("healthBar").innerHTML= (dragonHp * 50)
 	}else{
 		document.getElementById("healthBar").style.width= dragonHp + "%";
 		document.getElementById("healthBar").innerHTML= (dragonHp * 50) + " / 5000"
