@@ -50,7 +50,6 @@ function flight(){
 	document.getElementById("bg-red2").className = "hidden"
 	document.images.hero.src="mario-flight.jpg"
 	$('#mario').animate({'marginLeft' : "-=200px"})
-	$('#mario').animate({'marginRight' : "-=100px"})
 	$('#mario').animate({'marginRight' : "-=1000px"})
 	document.getElementById("jumbotron").innerHTML = 
 		"Run away and<br>Fight the Dragon later!"
