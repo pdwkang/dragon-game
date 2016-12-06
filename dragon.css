@@ -1,0 +1,61 @@
+.bg-red{
+	background-color: red;
+}
+.bg-red2{
+	background-color: red;
+	text-align: right;
+	margin-top: 9%;
+}
+
+#healthBar{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 900;
+}
+
+#healthBar2{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 900;
+	text-align: left;
+}
+
+.empty-space{
+	height: 30px;
+}
+
+.total-health-border{
+	border: black 3px solid;
+	padding: 0;
+}
+
+.health-border{
+	border: 2px solid yellow;
+}
+
+#dragon, .mario-margin{
+	margin-top: 10%;
+}
+
+.mario-15{
+	margin-top: 16%;
+}
+
+.jumbotron{
+	background-color: #005986 !important;
+	color: white !important;
+	border-radius: 2%;
+	font-family: sans-serif;
+	font-size: 25px;
+	padding: 25px !important;
+	font-style: italic;
+	font-weight: 300;
+}
+
+#showGame {
+	text-align: right;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Fight the Dragon
+	</title>
+	<link rel="stylesheet" type="text/css" href="dragon.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<script type="text/javascript" src="dragon.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/467a930b32.js"></script>
+
+</head>
+
+
+<body>
+
+	<div id="game">
+		<div class="col-sm-12 empty-space"></div>
+		<div class="col-sm-6">
+			<div class="col-sm-12">
+				<div class="bg-red total-health-border">
+					<div id="healthBar" style="width:100%" class="bg-warning health-border">
+						5000 / 5000
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12">
+
+				<img id="dragon" src="dragon.png" style="margin-top:10%">
+			</div>
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+			<div class="col-sm-12 text-center">
+				<div id="jumbotron" class="col-sm-12 jumbotron bg-success">
+				You encountered a dragon. <br>Do you want to fight?
+				</div>
+				<div id="hideInput">
+					<input class="btn btn-success" type="button" onclick="fight();" value="Fight!">
+					<input class="btn btn-danger" type="button" onclick="flight();" value="Run Away!">
+				</div>
+
+				<div id="showGame" class="hidden">
+					<img id="move-die1" name="die1" src="d1.gif">
+					<img id="move-die2" name="die2" src="d1.gif">
+					<input class="btn btn-success" type="button" onclick="rollDice();" value="Roll the dice!">
+					<!-- <div id="userRoll">Your Attack</div> -->
+				</div>
+			</div>
+
+			
+
+			<div class="col-sm-12 text-center">
+									
+
+				<img id="mario" name="hero" src="mario-standing.jpg" class="mario-15">
+
+				<div class="bg-red2 total-health-border" id="bg-red2">
+
+					<div id="healthBar2" style="width:100%" class="bg-warning health-border">
+						1000 / 1000
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+	
+</html>
+
+
+<!-- 		<div>You encountered a dragon. Do you want to fight?</div>
+ -->
